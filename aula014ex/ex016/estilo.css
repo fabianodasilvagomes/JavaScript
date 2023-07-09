@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(0, 89, 255);   /*cor do laioute*/
+    font: normal 15pt arial;  /*estilo da fonte8*/
+}
+header{
+    text-align: center;   /*alinhamento do texo*/
+    color: white;       /*cor da letra*/
+}
+section{
+    background-color: white;
+    border-radius: 10px;    /*arredondamento das letras*/
+    width: 500px;           /*tamanho do bloco*/
+    padding: 10px;          /*espaçamento do txt no bloco*/
+    margin: auto;           /*margem do bloco, ou centralização*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.733);  /*sombra em torno do bloc*/
+}
+input#txtf{
+    margin-left: 19px;
+}
+input#txti{
+    margin-left: 6px;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;    /*estilo da fonte, 'italica' encila a letra*/
+}

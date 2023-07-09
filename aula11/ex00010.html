@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="txt1" id="txt1">
+   <input type="button" value="Verificar" onclick="clicar()">
+   <div id="res"></div>
+   <script>
+    function clicar(){
+        var pais = window.document.querySelector('input#txt1')
+        var res = window.document.querySelector('div#res')
+        if (pais != 60) {
+            res.innerHTML ='Você é Estrangeiro'
+        } else {
+             res.innerHTML ='Você é Brasileiro'
+        }
+    }
+   </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento</title>
+    <style>
+        body{
+            background-color:rgb(255, 255, 255);
+            font: normal 12pt arial;
+        }
+        h1{
+            font: normal 16pt arial black;
+        }
+    </style>
+</head>
+<body>
+    <h1>FEITO DIRÉTO DO JAVASCRIPT PARA VOCÊ!</h1>
+    <script>
+        var nome = window.prompt('Digite seu nome')
+        var idade = Number(window.prompt('Qual a sua idade'))
+        var r = idade >= 18 ? 'voçê já é de maior': 'você ainda é de menor'
+        document.write(`<strong>Nome:</strong> ${nome}</br>`)
+        document.write(`<strong>Idade:</strong> ${idade} Anos, ${r}</br>`)
+        document.write(`<strong>Seu nome tem:</strong> ${nome.length} letras</br>`)
+        document.write(`<strong>Seu nome todo em MAIÚSCULO:</strong> ${nome.toUpperCase()}</br>`)
+        document.write(`<strong>Seu nome to em minusculo:</strong> ${nome.toLowerCase()}`)      
+    </script>
+    
+</body>
+</html>

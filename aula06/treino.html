@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(99, 5, 187);
+            color: aliceblue;
+            font: normal 14pt arial black;
+        }
+        p{
+            color: black;
+            font: normal 10pt arial black
+        }
+    </style>
+</head>
+<body>
+    <h1>Feito para você</h1>
+    <h2>Estude programação!</h2>
+    <script>
+        var nome = window.prompt('Olá, qual o seu nome?')
+        var n1 = Number(window.prompt(`Oi ${nome}, coloque um número:`))
+        var n2 = Number(window.prompt('OK, agora mais um número:'))
+        var s = n1 + n2
+        document.write(`<strong>${nome}</strong>, sabia que seu nome contem <strong>${nome.length}</strong> letras. </br> `)
+        document.write(`Ao colocar ele em letras Maiúscula fica: <strong>${nome.toUpperCase()}</strong>.</br> `)
+        document.write(`Tabem temos ele todo em letra minúscula: <strong>${nome.toLowerCase()}</strong>.</br> `)
+        document.write(`A soma de ${n1} e ${n2} é igual a: <strong>${s}</strong>`)
+    </script>  
+    <p>Conteudo feito em JavaScript</p>  
+</body>
+</html>
